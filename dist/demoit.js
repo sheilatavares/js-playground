@@ -4972,8 +4972,8 @@
                 content: [
                   '\n        <p>\n          Theme:\n          <select data-export="themePicker">\n            <option value="light">light</option>\n            <option value="dark">dark</option>\n          </select>\n        </p>\n        <p class="mt1">Layout:</p>\n        <div class="mb1" data-export="layoutArchitectContainer"></div>\n        <button class="save" data-export="saveGeneral">Save</button>\n      ',
 
-                  "\n        <p>\n          v".concat(
-                    'Javascript living code<br />\n   Code adapted by Sheila Tavares <br />\n      Original code by Krasimir Demoit - GitHub repo: <a href="https://github.com/krasimir/demoit" target="_blank">https://github.com/krasimir/demoit</a>\n        </p>\n      '
+                  "\n        <p>\n          ".concat(
+                    'Javascript living code<br /><br />\n   Code adapted by Sheila Tavares <br />\n      Original code by Krasimir Demoit - GitHub repo: <a href="https://github.com/krasimir/demoit" target="_blank">https://github.com/krasimir/demoit</a>\n        </p>\n      '
                   ),
                 ],
                 cleanUp: function () {

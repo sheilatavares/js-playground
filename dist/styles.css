@@ -796,6 +796,8 @@ svg {
   text-align: center;
   padding: 10px 8px 8px 8px;
   font-size: 0.9em;
+}
+.meta-and-status > * {
   display: none;
 }
 .meta-and-status .badge {
