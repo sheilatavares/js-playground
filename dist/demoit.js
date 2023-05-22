@@ -4971,22 +4971,7 @@
                 buttons: ["General", "About"],
                 content: [
                   '\n        <p>\n          Theme:\n          <select data-export="themePicker">\n            <option value="light">light</option>\n            <option value="dark">dark</option>\n          </select>\n        </p>\n        <p class="mt1">Layout:</p>\n        <div class="mb1" data-export="layoutArchitectContainer"></div>\n        <button class="save" data-export="saveGeneral">Save</button>\n      ',
-                  '\n        <textarea class="dependencies-list" data-export="dependenciesTextarea"></textarea>\n        <p><small>(Separate your dependencies by a new line)</small></p>\n        <button class="save" data-export="saveDependenciesButton">Save</button>\n      ',
-                  '\n        <h2>Embed</h2>\n        <textarea data-export="iframeTextarea">'
-                    .concat(
-                      ((i = window.location.href),
-                      '<iframe src="'.concat(
-                        i,
-                        '" style="display: block; width:100%; height: 400px; border:0; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin allow-top-navigation-by-user-activation"></iframe>'
-                      )),
-                      "</textarea>\n        "
-                    )
-                    .concat(
-                      h
-                        ? '\n          <h2 class="mt1">Download/Offline mode</h2>\n          <p>The archive contains all the files that you need to run the app locally. Including your dependencies.</p>\n          <button class="save" data-export="downloadButton">Download zip file</button>'
-                        : "",
-                      "\n      "
-                    ),
+
                   "\n        <p>\n          v".concat(
                     l,
                     '<br />\n          On the web: <a href="https://poet.krasimir.now.sh" target="_blank">poet.krasimir.now.sh</a><br />\n          GitHub repo: <a href="https://github.com/krasimir/poet.krasimir.now.sh.feedback/issues" target="_blank">github.com/krasimir/poet.krasimir.now.sh.feedback</a>\n        </p>\n      '
