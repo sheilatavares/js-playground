@@ -3085,7 +3085,7 @@
             { name: "editor", elements: [] },
             {
               elements: [
-                { name: "HTML", elements: [] },
+                // { name: "HTML", elements: [] },
                 { name: "console", elements: [] },
               ],
               direction: "horizontal",
