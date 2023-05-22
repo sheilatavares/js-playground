@@ -4973,8 +4973,7 @@
                   '\n        <p>\n          Theme:\n          <select data-export="themePicker">\n            <option value="light">light</option>\n            <option value="dark">dark</option>\n          </select>\n        </p>\n        <p class="mt1">Layout:</p>\n        <div class="mb1" data-export="layoutArchitectContainer"></div>\n        <button class="save" data-export="saveGeneral">Save</button>\n      ',
 
                   "\n        <p>\n          v".concat(
-                    l,
-                    '<br />\n          On the web: <a href="https://poet.krasimir.now.sh" target="_blank">poet.krasimir.now.sh</a><br />\n          GitHub repo: <a href="https://github.com/krasimir/poet.krasimir.now.sh.feedback/issues" target="_blank">github.com/krasimir/poet.krasimir.now.sh.feedback</a>\n        </p>\n      '
+                    'Javascript living code<br />\n   Code adapted by Sheila Tavares <br />\n      Original code by Krasimir Demoit - GitHub repo: <a href="https://github.com/krasimir/demoit" target="_blank">https://github.com/krasimir/demoit</a>\n        </p>\n      '
                   ),
                 ],
                 cleanUp: function () {
