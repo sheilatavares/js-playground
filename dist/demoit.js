@@ -5069,10 +5069,7 @@
               p.push(
                 '\n      <div class="meta-and-status">\n        '
                   .concat(t.meta().published ? "&#10004; " : "", "\n        ")
-                  .concat(
-                    t.meta().name ? t.meta().name : "unnamed",
-                    "\n        "
-                  )
+                  .concat(t.meta().name ? t.meta().name : "", "\n        ")
                   .concat(
                     t.loggedIn() && !t.isDemoOwner()
                       ? '<span class="badge warning">not yours</span>'
